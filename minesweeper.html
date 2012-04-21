@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-jp" lang="ja-jp">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Administrator" />
+  <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="stopwatch.js"></script>
+  <script type="text/javascript" src="minesweeper.js"></script>
+</head>
+<body>
+  <p id="timestamp"></p>
+  <p id="result"></p>
+  <p>残りの爆弾:<div id="bombs"></div>個</p>
+  <style type="text/css">
+    td {
+    width: 50px;
+    height:50px;
+    }
+  </style>
+  <table title="minesweeper" id="minetable" border=1></table>
+  <input type="number" value="5" id="verti"   min="5" name="vertical"  ></input>
+  <input type="number" value="7" id="horizon" min="5" name="horizontal"></input>
+  <button>開始</button>
+  <div id="debug"></div>
+</body>
+</html>
